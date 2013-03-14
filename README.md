@@ -1,16 +1,17 @@
 CakePHP HeatMap plugin
 ======================
 Easy to use plugin for capturing mouse events and visualising them back in form of a heatmap
+* version: 0.1
+* author: Michal Vondracek <info@michalvondracek.cz>
+* license: MIT
 
-version: 0.1
-author: Michal Vondracek <info@michalvondracek.cz>
-license: MIT
-
-submodules:
+submodules
+----------
 * heatmap.js (http://www.patrick-wied.at/static/heatmapjs/index.html) - Patrick Wied <contact@patrick-wied.at> 
 * jquery.event-playback.js (https://github.com/hmert/jquery-event-playback) - TJ Holowaychuk <tj@vision-media.ca>
 
-== Install
+Install
+=======
 * copy the archive into Plugin/Heat
 * add CakePlugin::loadAll(); to Config/bootstrap.php
 * create table by importing Confing/Schema/heat.sql
@@ -23,11 +24,13 @@ layout.ctp
  .
  .
 
-== Parameters
+Parameters
+==========
 * **key** - the key, project key, used when saving info and vice versa when loading this key and url is used as a filter
 * **duration** - in miliseconds, duration of capturing sequence, periodicity of saving (default 5000 = 5sec)
 
-== License
+License
+=======
 (The MIT License)
 
 Copyright © 2013 Michal Vondracek <info@michalvondracek.cz>
