@@ -7,8 +7,8 @@ author: Michal Vondracek <info@michalvondracek.cz>
 license: MIT
 
 submodules:
-heatmap.js - http://www.patrick-wied.at/static/heatmapjs/index.html
-jquery.event
+* heatmap.js (http://www.patrick-wied.at/static/heatmapjs/index.html) - Patrick Wied <contact@patrick-wied.at> 
+* jquery.event-playback.js (https://github.com/hmert/jquery-event-playback) - TJ Holowaychuk <tj@vision-media.ca>
 
 == Install
 * copy the archive into Plugin/Heat
