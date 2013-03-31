@@ -24,7 +24,7 @@ Use
 layout.ctp
 ----------
  <body>
- <?php echo $this->element('Heat.heat', array('key' => 'outlet.cz', 'duration' => 10000)); ?>
+ <?php echo $this->element('Heat.heat', array('key' => 'michalvondracek.cz', 'duration' => 10000)); ?>
  .
  .
 
@@ -32,6 +32,11 @@ Parameters
 ==========
 * **key** - the key, project key, used when saving info and vice versa when loading this key and url is used as a filter
 * **duration** - in miliseconds, duration of capturing sequence, periodicity of saving (default 5000 = 5sec)
+
+TODO
+====
+* change the logic from capturing the mouse movements to click
+* add scroll visualising
 
 License
 =======
