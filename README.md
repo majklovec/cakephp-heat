@@ -14,8 +14,12 @@ Install
 =======
 * copy the archive into Plugin/Heat
 * add CakePlugin::loadAll(); to Config/bootstrap.php
-* create table by importing Confing/Schema/heat.sql
-* insert the element in the layout.ctp right after opening tag <body> 
+* create table by importing Config/Schema/heat.sql
+
+Use
+===
+* insert the element in the layout.ctp 
+* add ?heat=1 to url, and you'll see the results
 
 layout.ctp
 ----------
