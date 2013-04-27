@@ -5,6 +5,8 @@ Easy to use plugin for capturing mouse events and visualising them back in form 
 * author: Michal Vondracek <info@michalvondracek.cz>
 * license: MIT
 
+more at http://www.cakemag.cz
+
 submodules
 ----------
 * heatmap.js (http://www.patrick-wied.at/static/heatmapjs/index.html) - Patrick Wied <contact@patrick-wied.at> 
